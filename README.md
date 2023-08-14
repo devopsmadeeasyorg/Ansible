@@ -1,10 +1,3 @@
-# Pre-Requisites
-Step 1: Install ansible tool
-```
-sudo yum install epel-release -y
-sudo yum install ansible -y
-sudo yum install git -y
-```
 # Execution Flow
 # Jenkins server
 * login to Jenkins server and clone Ansible repo and run the playbook to install all the software packag
