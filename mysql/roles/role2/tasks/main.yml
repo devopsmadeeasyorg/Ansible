@@ -1,10 +1,10 @@
 ---  
   - name: create database
-    mysql_db: name=portfolio state=present
+    mysql_db: name=csit state=present
   - name: create mysql user
     mysql_user:
-       name: port
-       password: Folio@123
+       name: krishna
+       password: Krishna@123
        priv: '*.*:ALL'
        #host_all: yes
        state: present
